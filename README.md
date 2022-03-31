@@ -7,9 +7,9 @@ It is used when you want to find an association between different objects in a s
 
 **Strategies may include:**
 
-1 Changing the store layout according to trends
-2 Customer behaviour analysis
-3 Catalog design
+1 Changing the store layout according to trends\n
+2 Customer behaviour analysis\n
+3 Catalog design\n
 
 **Difference between Association and Recommendation:**
 
@@ -17,15 +17,15 @@ Association rule do not extract the individual preferences rather find relations
 
 **Key metrics for association rules:**
 
-1 Support: Percentage of order that contains the item set
-2 Confidence: Antecedent and consequent, Confidence measure the percentage of times that item 'Consequent' is purchased given that item 'Antecedent' was purchased.
-3 Lift: Unlike the confidence metric whose value may vary depending on direction (Eg: Confidence (A -> C) may be differennt from confidence (C -> A). Lift has no direction. This means that the lift (A,C) is always equal to the lift(C,A).
+1 Support: Percentage of order that contains the item set\n
+2 Confidence: Antecedent and consequent, Confidence measure the percentage of times that item 'Consequent' is purchased given that item 'Antecedent' was purchased.\n
+3 Lift: Unlike the confidence metric whose value may vary depending on direction (Eg: Confidence (A -> C) may be differennt from confidence (C -> A). Lift has no direction. This means that the lift (A,C) is always equal to the lift(C,A).\n
 
 
 **Association rule based algorithm are viewed as two step approach:**
 
-1 Frequent Itemset Generation: Find all frequent item sets with support >= Pre determined min_support count
-2 Rule Generation: List of all association rule from frequent item-set calculate support and confidence for all rules.
+1 Frequent Itemset Generation: Find all frequent item sets with support >= Pre determined min_support count\n
+2 Rule Generation: List of all association rule from frequent item-set calculate support and confidence for all rules.\n
 
 
 
